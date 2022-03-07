@@ -1,0 +1,52 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .page-heading {
+    padding: 10px;
+    margin: 10px;
+    background-color: #004863;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .card-body .text-left {
+    text-align: left;
+  }
+
+  .banner-image {
+    position: relative;
+    margin-top: 5rem;
+  }
+
+  .banner-image .card-body {
+    position: absolute;
+    margin: 2rem 1.5rem;
+    max-width: 20rem;
+    color: white;
+    background-color: rgba(102, 102, 102, 0.9);
+  }
+
+  .banner-image .card-body .btn {
+    color: white;
+    background-color: #004774;
+    border-radius: 0;
+    padding: .5rem 6rem;
+  }
+
+  .accordion {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }

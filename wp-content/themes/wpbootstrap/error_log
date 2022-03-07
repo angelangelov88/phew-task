@@ -1,0 +1,8 @@
+[07-Mar-2022 09:28:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in /home/angelangelov/public_html/projects/phew-task/wp-content/themes/wpbootstrap/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/angelangelov/public_html/projects/phew-task/wp-content/themes/wpbootstrap/index.php on line 13
+[07-Mar-2022 09:28:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in /home/angelangelov/public_html/projects/phew-task/wp-content/themes/wpbootstrap/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/angelangelov/public_html/projects/phew-task/wp-content/themes/wpbootstrap/index.php on line 13

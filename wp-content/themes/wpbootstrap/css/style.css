@@ -1,0 +1,121 @@
+/*
+Theme Name: WPBootstrap
+Text Domain: twentytwenty
+Version: 1.9
+Tested up to: 5.9
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: This is a basic theme for my project with Phew.
+Author: Angel Angelov
+Author URI: https://angel-angelov.netmatters-scs.co.uk/
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+.page-heading {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #004863;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.images-container {
+  margin: 0.5rem;
+}
+@media only screen and (min-width: 576px) {
+  .images-container {
+    margin: 0.5rem 2rem;
+  }
+}
+
+.accordion {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width: 1740px) {
+  .accordion {
+    max-width: 1260px;
+  }
+}
+
+.accordion-button {
+  background-color: #004863;
+  color: white;
+  font-weight: 600;
+}
+
+.accordion-button::after {
+  content: "+";
+  transform: scale(1.8);
+  background-image: url("");
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: " -";
+  transform: scale(1.8);
+  background-image: url("");
+}
+
+.banner-image {
+  position: relative;
+  margin: 5rem 2rem;
+}
+@media only screen and (min-width: 576px) {
+  .banner-image {
+    margin: 5rem auto;
+    width: 80%;
+    max-width: 1296px;
+  }
+}
+
+.banner-image img {
+  min-height: 200px;
+}
+
+.banner-image .card-body {
+  position: absolute;
+  margin: 2rem 1.5rem;
+  max-width: 10rem;
+  color: white;
+  background-color: rgba(102, 102, 102, 0.9);
+  font-size: 12px;
+}
+@media only screen and (min-width: 576px) {
+  .banner-image .card-body {
+    max-width: 20rem;
+    font-size: initial;
+  }
+}
+
+.card-body .text-left {
+  text-align: left;
+}
+
+.banner-image .card-title {
+  font-size: 16px;
+}
+@media only screen and (min-width: 576px) {
+  .banner-image .card-title {
+    font-size: 2rem;
+  }
+}
+
+.banner-image .card-body .btn {
+  color: white;
+  background-color: #004774;
+  border-radius: 0;
+  font-size: 12px;
+}
+@media only screen and (min-width: 576px) {
+  .banner-image .card-body .btn {
+    padding: 0.5rem 6rem;
+    font-size: initial;
+  }
+}/*# sourceMappingURL=style.css.map */
